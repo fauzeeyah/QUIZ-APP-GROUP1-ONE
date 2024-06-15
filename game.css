@@ -3,12 +3,41 @@ body {
 
 }
 
+.pink-btn {
+  background-color: #ec008a;
+  border: none;
+  border-radius:50px;
+  box-shadow: 8px 8px black;
+  font-family: "Black Ops One", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+
+.pink-btn:hover {
+  transform: translateY(8px);
+  box-shadow: 0px 0px black;
+  background-color: #aa0365;
+}
 .choice-container {
   display: flex;
-  margin-bottom: 0.8rem;
+  margin-bottom: 2rem;
   width: 100%;
-  border-radius: 4px;
-  background: rgb(18, 93, 255);
+  background-color: #ec008a;
+  border: none;
+  border-radius:50px;
+  box-shadow: 8px 8px black;
+  font-family: "Black Ops One", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
   font-size: 3rem;
   min-width: 80rem;
 }
@@ -48,16 +77,30 @@ background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%)
   .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    color: #9b21d9;
+    margin-top: 40px;
+    font-weight: 600;
   }
 
 .hud-main-text {
   text-align: center;
 }
 
+#score-circle {
+  display: grid;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+  align-content: center;
+  justify-content: center;
+}
+
 #progressBar {
   width: 20rem;
   height: 3rem;
-  border: 0.2rem solid rgb(11, 255, 247);
+  border: 0.5rem solid  #479ada;
+  background-color: white;
   margin-top: 2rem;
   border-radius: 50px;
   overflow: hidden;
@@ -65,7 +108,7 @@ background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%)
 
 #progressBarFull {
   height: 100%;
-  background: rgb(255, 255, 51);
+  background: #9b21d9;
   width: 0%;
 }
 
